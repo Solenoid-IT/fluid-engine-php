@@ -1,0 +1,28 @@
+{
+    "name": "solenoid/fluid",
+    "description": "Fluid library",
+    "type": "library",
+    "keywords": ["fluid","dbms","database","sql"],
+    "homepage": "https://github.com/Solenoid-IT/php-fluid",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pier Niccolò Giannelli",
+            "email": "pierniccologiannelli@gmail.com",
+            "homepage": "https://www.solenoid.it",
+            "role": "Full Stack Web Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "solenoid/http": "^1.0.0",
+        "solenoid/mysql": "^1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Solenoid\\Fluid\\": "src",
+            "Solenoid\\HTTP\\": "src",
+            "Solenoid\\MySQL\\": "src"
+        }
+    }
+}
